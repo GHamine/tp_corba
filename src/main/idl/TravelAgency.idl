@@ -1,0 +1,17 @@
+module TravelAgencyModule {
+
+    struct Trip {
+        long id;
+        string destination;
+        double price;
+        long availableSeats;
+    };
+
+    interface TravelAgency {
+        typedef sequence<Trip> TripList;
+
+        TripList getAvailableTrips();
+        boolean bookTrip(in long tripId, in string clientName);
+    };
+
+};

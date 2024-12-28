@@ -16,8 +16,6 @@
 
 - Source code for [`TravelAgencyImpl`](./server/src/main/java/server/TravelAgencyImpl.java) and [`TravelAgencyServer`](./server/src/main/java/server/TravelAgencyServer.java).
 
-- Detailed instructions on starting the ORB and server .
-
 - Start the ORB and server:
   - Run [`TravelAgencyServer`](./server/src/main/java/server/TravelAgencyServer.java).
 

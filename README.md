@@ -17,6 +17,10 @@
 - Source code for [`TravelAgencyImpl`](./server/src/main/java/server/TravelAgencyImpl.java) and [`TravelAgencyServer`](./server/src/main/java/server/TravelAgencyServer.java).
 
 - Start the ORB and server:
+  - Type in the terminal to start the Naming Service: 
+    ```sh
+    tnameserv -ORBInitialPort 1050
+    ```
   - Run [`TravelAgencyServer`](./server/src/main/java/server/TravelAgencyServer.java).
 
 - Source code for [`TravelAgencyClient`](./client/src/main/java/client/TravelAgencyClient.java).
